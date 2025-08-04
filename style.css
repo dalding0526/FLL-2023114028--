@@ -1,0 +1,69 @@
+#our{
+    color: palevioletred;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.fam{
+    font-size: 28px;
+    color: blueviolet;
+    text-decoration: none;
+    font-family: "Nanum Gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  list-style-type: none;
+}
+
+.fam a {
+  color: blueviolet;
+}
+
+img{
+    padding-top: 1cm;
+    margin-left: 5%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: palevioletred;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 0;
+  padding-left: 5%;
+  list-style-type: none;
+}
+
+.dropdown-content li a {
+  display: block;
+  text-decoration: none;
+  padding-left: 5%;
+  margin: 0;
+}
+
+.dropdown-content li a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
